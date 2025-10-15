@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "JakoFakt Development",
-  "license": "AGPL-3.0-only"
+  "license": "AGPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakoFakt-cz/jakofakt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JakoFakt-cz/jakofakt/issues"
+  },
+  "homepage": "https://github.com/JakoFakt-cz/jakofakt#readme"
 }
