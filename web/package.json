@@ -22,6 +22,7 @@
     "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.5",
-    "@eslint/eslintrc": "^3"
+    "@eslint/eslintrc": "^3",
+    "@types/bun": "latest"
   }
 }

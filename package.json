@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/JakoFakt-cz/jakofakt/issues"
   },
-  "homepage": "https://github.com/JakoFakt-cz/jakofakt#readme"
+  "homepage": "https://github.com/JakoFakt-cz/jakofakt#readme",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
 }
