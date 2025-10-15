@@ -3,7 +3,20 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --bg-primary: rgba(238, 238, 238, 0.85);
+  --text-primary: #2D4059;
 }
+
+@layer utilities {
+    .bg-primary {
+        background: var(--bg-primary);
+    }
+
+    .text-primary {
+        color: var(--text-primary);
+    }
+}
+
 
 @theme inline {
   --color-background: var(--background);
