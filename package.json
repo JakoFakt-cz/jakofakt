@@ -1,0 +1,11 @@
+{
+  "name": "jakofakt",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "Centralized mono-repo hosting the API and web clients for seamless development and deployment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JakoFakt Development",
+  "license": "AGPL-3.0-only"
+}

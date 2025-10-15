@@ -1,0 +1,9 @@
+# Webstorm files
+.idea
+/.idea
+.zencoder
+/.zencoder
+
+# Project files
+/node_modules/
+/web/node_modules
