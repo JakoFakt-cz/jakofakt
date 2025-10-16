@@ -13,7 +13,7 @@ const Menu = () => {
                     <MenuItem label={"O projektu"} isMulti />
                     <MenuItem label={"Záložka"} isMulti />
                 </nav>
-                <div className={""}>
+                <div>
                     <SecondaryButton
                         label={"Přihlásit se"}
                         icon={"material-symbols:person-outline"}
