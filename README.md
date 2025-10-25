@@ -1,15 +1,15 @@
 # jakofakt
 
+Welcome to the frontend & backend project for this organization. Before starting to develop, you need to setup your project and also you need to ensure you have working Git.
+
 To install dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+To run with developer mode, use command:
 
 ```bash
-bun run index.js
+bun dev
 ```
-
-This project was created using `bun init` in bun v1.3.0. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.

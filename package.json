@@ -4,7 +4,24 @@
   "description": "Centralized mono-repo hosting the API and web clients for seamless development and deployment.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "run-concurrently dev"
+  },
+  "concurrentTasks": {
+    "dev": {
+      "subTasks": [
+        {
+          "workingDirectory": "./frontend",
+          "command": "bun dev",
+          "name": "Frontend"
+        },
+        {
+          "workingDirectory": "./backend",
+          "command": "bun start:dev",
+          "name": "Backend"
+        }
+      ]
+    }
   },
   "author": "JakoFakt Development",
   "license": "AGPL-3.0-only",
@@ -26,5 +43,9 @@
   "workspaces": [
     "frontend",
     "backend"
-  ]
+  ],
+  "dependencies": {
+    "@gnoesiboe/run-concurrently": "^3.0.3",
+    "run-concurrently": "^1.0.0"
+  }
 }
