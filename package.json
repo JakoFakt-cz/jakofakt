@@ -35,7 +35,8 @@
   "homepage": "https://github.com/JakoFakt-cz/jakofakt#readme",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "turbo": "^2.5.8"
   },
   "peerDependencies": {
     "typescript": "^5"
@@ -47,5 +48,6 @@
   "dependencies": {
     "@gnoesiboe/run-concurrently": "^3.0.3",
     "run-concurrently": "^1.0.0"
-  }
+  },
+  "packageManager": "bun@1.2.0"
 }

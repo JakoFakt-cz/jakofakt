@@ -12,3 +12,6 @@
 bun.lock
 /frontend/bun.lock
 /backend/bun.lock
+
+#Turbo
+.turbo
