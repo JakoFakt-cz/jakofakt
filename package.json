@@ -1,9 +1,9 @@
 {
-  "name": "jakofakt",
+  "name": "platform",
   "version": "1.0.0-SNAPSHOT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JakoFakt-cz/jakofakt.git"
+    "url": "git+https://github.com/JakoFakt-cz/platform.git"
   },
   "main": "index.js",
   "devDependencies": {
@@ -14,10 +14,10 @@
     "typescript": "^5"
   },
   "bugs": {
-    "url": "https://github.com/JakoFakt-cz/jakofakt/issues"
+    "url": "https://github.com/JakoFakt-cz/platform/issues"
   },
   "description": "Centralized mono-repo hosting the API and web clients for seamless development and deployment.",
-  "homepage": "https://github.com/JakoFakt-cz/jakofakt#readme",
+  "homepage": "https://github.com/JakoFakt-cz/platform#readme",
   "license": "AGPL-3.0-only",
   "packageManager": "bun@1.2.0",
   "private": true,
