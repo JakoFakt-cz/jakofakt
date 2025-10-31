@@ -9,6 +9,14 @@ Frontend & Backend Monorepo built using Bun, Turborepo, Next.js and Nest.js
 
 ---
 
+## ⚙️ Prerequisites
+
+- [Bun](https://bun.sh) >= 1.3.0 (optionally latest)
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/) (optional, for tooling compatibility)
+
+---
+
 ## 🪛 How to install?
 
 Before you start to use the repo, you need to download dependencies.
@@ -21,12 +29,24 @@ bun install
 ```
 
 &nbsp;
-### 🖱️ Updating dependencies
-
+### Updating dependencies
 If you need to update dependencies, you can use command below
 
 ```bash
 bun update
+```
+
+---
+
+## 🏗️ Repository Structure
+
+Before starting to work in the repository, it's essential to understand it's structure to keep things clean and simple.
+
+```
+
+/apps
+├─── frontend # Next.js Application
+└─── backend # Nest.js Application
 ```
 
 ---
@@ -65,3 +85,23 @@ bun --filter 'frontend' build
 ```bash
 bun --filter 'backend' start:prod
 ```
+
+---
+
+## 🤝 Contributing
+We're open to any contributions. Please open an issue if you'd like to suggest a change or report a bug.
+If you have any suggested changes, please open a pull request. There are few rules to the contributing though.
+
+1. Be respectful to others (especially contributors, as they do it in their free time)
+2. Try to be specific
+3. In case of any PR's, you need to follow [Conventional Commits Stylesheet](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
+4. Respect project's license, you can see more about license below
+5. Maintainer is anyone who is in the **Core** Team
+
+### 🧾 License
+This repository is licensed under the **AGPL-3.0 license** - see [LICENSE](./LICENSE) file for details. 
+
+### 🙌 Contributors
+Thanks to all our amazing contributors!
+
+[![Contributors](https://contrib.rocks/image?repo=jakofakt-cz/platform)](https://github.com/jakofakt-cz/platform/graphs/contributors)
