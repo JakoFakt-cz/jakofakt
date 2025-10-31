@@ -7,6 +7,12 @@ Frontend & Backend Monorepo built using Bun, Turborepo, Next.js and Nest.js
 ![GitHub Repo stars](https://img.shields.io/github/stars/jakofakt-cz/platform?style=flat)
 ![GitHub forks](https://img.shields.io/github/forks/jakofakt-cz/platform?style=flat)
 
+[Prerequisites](#-prerequisites)
+[Installation](#-how-to-install)
+[Repository Structure](#-repository-structure)
+[Testing & Deployment](#-how-to-test--deploy)
+[Contributing](#-contributing)
+
 ---
 
 ## ⚙️ Prerequisites
@@ -100,6 +106,8 @@ If you have any suggested changes, please open a pull request. There are few rul
 
 ### 🧾 License
 This repository is licensed under the **AGPL-3.0 license** - see [LICENSE](./LICENSE) file for details. 
+
+&nbsp;
 
 ### 🙌 Contributors
 Thanks to all our amazing contributors!
