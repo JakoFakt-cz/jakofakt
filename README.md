@@ -3,7 +3,9 @@
 Frontend & Backend Monorepo built using Bun, Turborepo, Next.js and Nest.js
 
 ![GitHub contributors](https://img.shields.io/github/contributors/jakofakt-cz/platform)
-![GitHub last commit](https://img.shields.io/github/last-commit/jakofakt-cz/platform)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/jakofakt-cz/platform)
+![GitHub Repo stars](https://img.shields.io/github/stars/jakofakt-cz/platform?style=flat)
+![GitHub forks](https://img.shields.io/github/forks/jakofakt-cz/platform?style=flat)
 
 ---
 
@@ -26,8 +28,6 @@ If you need to update dependencies, you can use command below
 ```bash
 bun update
 ```
-
-&nbsp;
 
 ---
 
