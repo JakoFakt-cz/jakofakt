@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MenuItem from "@/components/composites/navigation/menu-item";
+import MenuItem from "@/components/composites/navigation/MenuItem";
 import Link from "next/link";
 import SecondaryButton from "@/components/atoms/SecondaryButton";
 
